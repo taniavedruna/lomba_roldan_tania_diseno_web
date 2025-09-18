@@ -1,0 +1,47 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  display: flex;
+  height: 100vh;
+  width: 100%;
+}
+
+.login {
+  width: 40%;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+}
+
+.logo img {
+  width: 150px;
+  margin-bottom: 20px;
+}
+
+.texto h1 {
+  font-size: 32px;
+  margin-bottom: 5%;
+  color: #000;
+}
+
+.formulario {
+  width: 200px;
+  max-width: 300px;
+}
+
+.campo {
+  margin-bottom: 20px;
+  font-size: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+input{
+  width: 330px;
+  height: 40px;
+  
+}
