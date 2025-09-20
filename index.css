@@ -1,3 +1,9 @@
+* {
+  margin:0;
+   font-family: Arial, sans-serif;
+}
+
+/*Pagina index*/
 
 .principal{
    margin: 0;
@@ -68,17 +74,19 @@ input{
 
 }
 
+ /*Pagina select*/
 
 .container {
   display: flex;
   height: 100vh; 
 }
 
-.container div{
+.container a{
   flex:1;
+  
 }
 
-.container div{
+.container img{
   width: 100%;
   height: 100%;
 }
@@ -91,11 +99,78 @@ input{
 
 .palabra{
   position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%) rotate(-90deg);
+  transform: rotate(270deg);
   font-size: 5vw;
   font-weight: bold;
-  margin: 0;
   pointer-events: none; 
 }
+
+/*Pagina mujer*/
+
+.encabezado {
+  position: absolute;  
+  width: 96%;
+  padding-top: 2%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: transparent;
+  color: white;
+  z-index: 20;         
+}
+
+.navegador {
+  list-style: none;
+  display: flex;
+}
+.navegador :hover{
+  text-decoration: underline;
+}
+
+.navegador a {
+  text-decoration: none;
+  color: #555;
+  font-weight: bold;
+}
+
+.perfil_usuario {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.perfil_usuario img {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+}
+
+
+.rebajas {
+  position: relative;      /* Para poder posicionar el texto encima */
+  width: 100%;
+  text-align: center;
+  color: white;
+  
+}
+
+.rebajas-img {
+  width: 100%;
+  height: auto;            /* Mantiene la proporción original */
+  display: block;          /* Evita espacios debajo de la imagen */
+}
+
+.rebajas-texto {
+  display: flex;
+  flex-direction: column; /* apila h1 y p verticalmente */
+  align-items: center;    /* centra horizontalmente */
+  gap: 25px;              /* espacio entre h1 y p */
+  position: absolute;
+  top: 75%;               /* ajusta verticalmente */
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+
+
