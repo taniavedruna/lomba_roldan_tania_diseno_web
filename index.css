@@ -6,8 +6,6 @@
 /*Pagina index*/
 
 .principal{
-   margin: 0;
-  font-family: Arial, sans-serif;
   display: flex;
   height: 100vh;
   width: 100%;
@@ -122,6 +120,7 @@ input{
 .navegador {
   list-style: none;
   display: flex;
+  gap: 25px;
 }
 .navegador :hover{
   text-decoration: underline;
@@ -147,7 +146,7 @@ input{
 
 
 .rebajas {
-  position: relative;      /* Para poder posicionar el texto encima */
+  position: relative;     
   width: 100%;
   text-align: center;
   color: white;
@@ -156,21 +155,80 @@ input{
 
 .rebajas-img {
   width: 100%;
-  height: auto;            /* Mantiene la proporción original */
-  display: block;          /* Evita espacios debajo de la imagen */
+  height: auto;            
+  display: block;          
 }
 
 .rebajas-texto {
   display: flex;
-  flex-direction: column; /* apila h1 y p verticalmente */
-  align-items: center;    /* centra horizontalmente */
-  gap: 25px;              /* espacio entre h1 y p */
+  flex-direction: column; 
+  align-items: center;   
+  gap: 25px;              
   position: absolute;
-  top: 75%;               /* ajusta verticalmente */
+  top: 75%;               
   left: 50%;
   transform: translate(-50%, -50%);
   color: white;
 }
 
 
+.rebajas-texto h1 {
+  font-size: 80px;
+}
 
+.rebajas-texto p {
+  font-size: 20px;
+}
+
+.rebajas-texto h3{
+  font-size: 34px;
+}
+
+.logo {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 155px;
+  width: 96%;
+}
+
+.logo_imagen {
+  height: 90px;
+  margin-bottom: 15px;
+}
+
+
+.buscador {
+  border: 1px solid #0c0c0c;
+  border-radius: 5px;
+}
+
+.lupa {
+  font-weight: bold;
+}
+
+.venta {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 20px;
+  padding: 40px;
+}
+
+.productos {
+  text-align: center;
+}
+
+.productos img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.productos p {
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+.productos span {
+  font-weight: bold;
+}
