@@ -1,6 +1,6 @@
 * {
   margin:0;
-   font-family: Arial, sans-serif;
+  font-family: Arial, sans-serif;
 }
 
 /*Pagina index*/
@@ -14,49 +14,71 @@
 
 .login {
   width: 40%;
-  background-color: #fff;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
   
 }
+.marca_logo{
+  text-align: center;
+}
 
 
-.texto h1 {
-  font-size: 32px;
+.login h1 {
+  font-size: 33px;
   color: #000;
+  margin-top: 25px;
 }
 
 .formulario{
   display: flex;
   flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
   gap: 30px;
-
 }
 
+
 .campo {
-  font-size: 16px;
   display: flex;
   flex-direction: column;
   gap: 30px;
 }
 
-input{
-  width: 330px;
+.campo input{
+  width: 230px;
   height: 40px;
-  
+  border-radius: 5px;
+  background-color: #f1f0f0f7;
+  color: #cdcaca;
+  border : 1px solid;
+  padding-left: 10px;
 }
 .boton {
   display: flex;
   flex-direction: column;
   gap: 20px;
+  
+}
+
+button{
+  width: 240px;
+  height: 40px;
+  border-radius: 5px;
+  border : 1px solid;
+ 
 }
 
 .boton-login{
-  width: 340px;
-  height: 40px;
-  background-color: #39810D;
+  background-color: #39810d;
+  color: white;
+  font-weight: bold;
+}
+
+.boton-log img{
+  height: 15px;
+  padding-right: 10px;
 }
 
 
@@ -81,6 +103,8 @@ input{
 
 .container a{
   flex:1;
+  color: #f5f5f5;
+
   
 }
 
@@ -98,7 +122,7 @@ input{
 .palabra{
   position: absolute;
   transform: rotate(270deg);
-  font-size: 5vw;
+  font-size: 75px;
   font-weight: bold;
   pointer-events: none; 
 }
@@ -114,7 +138,9 @@ input{
   align-items: center;
   background: transparent;
   color: white;
-  z-index: 20;         
+  z-index: 20;  
+  color: #555; 
+  font-size: 20px;      
 }
 
 .navegador {
@@ -149,14 +175,14 @@ input{
   position: relative;     
   width: 100%;
   text-align: center;
-  color: white;
+  color: #f5f5f5;
   
 }
 
 .rebajas-img {
   width: 100%;
   height: auto;            
-  display: block;          
+           
 }
 
 .rebajas-texto {
@@ -165,23 +191,24 @@ input{
   align-items: center;   
   gap: 25px;              
   position: absolute;
-  top: 75%;               
-  left: 50%;
+  top: 78%;               
+  left: 48%;
   transform: translate(-50%, -50%);
-  color: white;
+  color: #f5f5f5;
 }
 
 
 .rebajas-texto h1 {
-  font-size: 80px;
+  font-size: 100px;
 }
 
 .rebajas-texto p {
-  font-size: 20px;
+  font-size: 40px;
+  font-style: italic;
 }
 
-.rebajas-texto h3{
-  font-size: 34px;
+.rebajas-texto h2{
+  font-size: 40px;
 }
 
 .logo {
