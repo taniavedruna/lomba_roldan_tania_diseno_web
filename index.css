@@ -3,8 +3,6 @@
   font-family: Arial, sans-serif;
 }
 
-/*Pagina index*/
-
 .principal{
   display: flex;
   height: 100vh;
@@ -26,7 +24,7 @@
 
 
 .login h1 {
-  font-size: 33px;
+  font-size: 35px;
   color: #000;
   margin-top: 25px;
 }
@@ -50,9 +48,9 @@
   width: 230px;
   height: 40px;
   border-radius: 5px;
-  background-color: #f1f0f0f7;
-  color: #cdcaca;
-  border : 1px solid;
+  background-color: #F5F5F5; 
+  color:#cdcaca;     
+  border: 1px solid #cdcaca;
   padding-left: 10px;
 }
 .boton {
@@ -67,6 +65,7 @@ button{
   height: 40px;
   border-radius: 5px;
   border : 1px solid;
+  border: 1px solid #cdcaca;
  
 }
 
@@ -74,6 +73,7 @@ button{
   background-color: #39810d;
   color: white;
   font-weight: bold;
+  
 }
 
 .boton-log img{
@@ -94,198 +94,4 @@ button{
 
 }
 
- /*Pagina select*/
 
-.container {
-  display: flex;
-  height: 100vh; 
-}
-
-.container a{
-  flex:1;
-  color: #f5f5f5;
-
-  
-}
-
-.container img{
-  width: 100%;
-  height: 100%;
-}
-
-.mujer, .hombre{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.palabra{
-  position: absolute;
-  transform: rotate(270deg);
-  font-size: 75px;
-  font-weight: bold;
-  pointer-events: none; 
-}
-
-/*Pagina mujer Y hombre*/
-
-.encabezado {
-  position: absolute;  
-  width: 96%;
-  padding-top: 2%;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background: transparent;
-  color: white;
-  z-index: 20;  
-  color: #555; 
-  font-size: 20px;      
-}
-
-.navegador {
-  list-style: none;
-  display: flex;
-  gap: 25px;
-}
-.navegador :hover{
-  text-decoration: underline;
-}
-
-.navegador a {
-  text-decoration: none;
-  color: #555;
-  font-weight: bold;
-}
-
-.perfil_usuario {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-}
-
-.perfil_usuario img {
-  width: 35px;
-  height: 35px;
-  border-radius: 50%;
-}
-
-
-.rebajas {
-  position: relative;     
-  width: 100%;
-  text-align: center;
-  color: #f5f5f5;
-  
-}
-
-.rebajas-img {
-  width: 100%;
-  height: auto;            
-           
-}
-
-.rebajas-texto {
-  display: flex;
-  flex-direction: column; 
-  align-items: center;   
-  gap: 25px;              
-  position: absolute;
-  top: 78%;               
-  left: 48%;
-  transform: translate(-50%, -50%);
-  color: #f5f5f5;
-}
-
-
-.rebajas-texto h1 {
-  font-size: 100px;
-}
-
-.rebajas-texto p {
-  font-size: 40px;
-  font-style: italic;
-}
-
-.rebajas-texto h2{
-  font-size: 40px;
-}
-
-.logo {
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-  gap: 290px;
-  width: 96%;
-}
-
-.logo_imagen {
-  height: 90px;
-  margin-bottom: 15px;
-}
-
-
-.buscador {
-  display: flex;
-  align-items: center;
-  border: 1px solid #cdcaca;
-  border-radius: 5px;   
-  padding: 4px 10px;
-  height: 25px;          
-  background-color: #f5f5f5;
-}
-
-.lupa {
-  border: none;
-  outline: none;
-  font-weight: bold;
-  font-size: 14px;
-  width: 100%;
-  background: transparent;
-  
-}
-
-.lupa::placeholder {
-  font-weight: bold;
-  color: #000;
-}
-
-
-.venta {
-  display: grid;
-  grid-template-columns:1fr 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
-  padding: 40px;
-  gap: 15px;
-}
-
-.productos {
-  text-align: center;
-}
-
-.productos img {
-  width: 100%;
-  height: auto;
-  margin-bottom: 10px;
-}
-
-.productos p {
-  font-size: 14px;
-  margin-bottom: 5px;
-}
-
-.productos span {
-  font-weight: bold;
-}
-
-/*Pagina hombre*/
-.logo_hombre {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.logo_hombre_imagen {
-  height: 90px;
-
-}

@@ -26,4 +26,30 @@ A medida que vayamos avanzando en las entregas, deberéis completar este README.
 
 El nombramiento de las ramas debe ser el indicado en la tarea correspondiente en Classroom, siendo nula la entrega si no es correcto. El repositorio debe mantenerse durante todo el curso (no se permite entregar algunas tareas, eliminarlo y crear uno nuevo para la siguiente tarea).
 
- Acabo de añadir un nuevo repositorio llamado develop.
+He creado el repositorio develop.
+
+He añadido la rama feature, donde iré subiendo la Actividad 1 (Diseño web) hasta finalizarla.
+
+Descripción de la web
+
+La página web está compuesta por:
+
+Página principal (index) 
+Una foto principal.
+El logo.
+Un formulario y un buscador.
+Login 
+
+Página select
+Compuesta por dos imágenes: una mujer y un hombre, cada una ocupando el 50% del ancho de la pantalla.
+Pinches donde pinches, te llevará a la parte correspondiente (página de hombre o de mujer).
+
+Página de Hombre y Página de Mujer
+Ambas tienen una estructura similar:
+Una foto principal grande en la parte superior izquierda.
+Opciones de menú:Mujer 2 opciones.Hombre  3 opciones.
+A la derecha aparece el perfil de usuario.
+En el centro de la imagen, las rebajas.
+Más abajo el logo.
+En la página de mujer añadí un buscador con una lupa de color (para hacerlo más llamativo).
+En ambas páginas aparece a continuación toda la oferta de ropa.
